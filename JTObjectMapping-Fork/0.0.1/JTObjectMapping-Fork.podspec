@@ -7,5 +7,6 @@ Pod::Spec.new do |s|
   s.author   = 'mystcolor'
   s.source   = { :git    => 'git://github.com/111minutes/JTObjectMapping.git', :commit => 'cb3cd2a955b2475be6595d1c8be7e894d92094d4' }
 
+  s.requires_arc = false
   s.source_files = 'JTObjectMapping/Source/*.{h,m}'
 end
